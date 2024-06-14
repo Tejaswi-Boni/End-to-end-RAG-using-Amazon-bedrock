@@ -2,24 +2,32 @@
 
 ##Create new virtual environment
 
-'''bash
+```bash
+
 conda create -n llmapp python=3.8
-'''
+
+```
 
 ##activate virtual environment
 
-'''bash
+```bash
+
 conda activate llmapp
-'''
+
+```
 
 ##install requirements package
 
-'''bash
+```bash
+
 pip install -r requirements.txt
-'''
+
+```
 
 ##run your application
 
-'''bash
+```bash
+
 streamlit run main.py
-'''
+
+```
